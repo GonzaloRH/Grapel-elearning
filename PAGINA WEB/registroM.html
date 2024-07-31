@@ -1,0 +1,330 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Regristros</title>
+
+   <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+  
+<link rel="stylesheet" type="text/css" href="CSS/diseño.css"/>
+
+<style type="text/css">
+
+.seleccion{
+  
+  width:100%;
+  height:30%;
+}
+
+.seleccion botton{
+  
+  
+}
+
+.seleccion img{
+  
+  width:8%;
+  
+}
+
+input[type="text"], input[type="Email"], input[type="Number"], input[type="password"]{
+  
+  font-family:'open sans';
+  max-width:130%;
+  min-width:150%;
+  max-height:45px;
+  min-height:45px
+  
+}
+
+.texto2 #boton{
+  
+  padding-top:45px;
+  margin-top:20px;
+  padding:15px 60px;
+  
+}
+  
+.texto #boton{
+  
+  
+  padding-top:45px;
+  margin-top:20px;
+  padding:15px 60px;
+  
+}
+
+#boton{
+  
+  background:#66CDAA;
+  color:#fff;
+  font-size:16px;
+  margin:10px auto;
+  font-weight:90px;
+  padding-top:20px;
+  padding-left:50px;
+  border-radius:30px;
+  
+}
+
+#boton:hover{
+  
+  background:rgb(72, 209, 204);
+  color:#00008B;
+  
+}
+
+#texto01{
+  
+  font-size:26px;
+  border-radius:30px;
+  
+}
+
+#Nombre{
+
+  font-size:26px;
+  border-radius:30px;
+  
+}
+
+.texto2{
+  
+  float:right;
+  text-decoration: none;
+  text-transform:uppercase;
+  margin-top:26px;
+  padding:0 330px 0 50px;
+  
+}
+
+.texto {
+  
+  float:left;
+  text-decoration: none;
+  text-transform:uppercase;
+  margin-top:45px;
+  padding:0 10px 0 40px;
+  
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<header>
+	
+   <div class="contenedor">
+   			<div id="marca">
+   			  
+   			  <img src="IMG/icono.png" width="80" height="50"/>
+   			  
+   		<h1><span class="resaltado"> Grapel </span> | E-Learning </h1>
+   			<nav>
+            	<ul>
+                <li class="actual"><a href="index.html"> Inicio </a></li>
+               <li><a href="#"> Preferencias </a>
+
+                  <ul>
+                    
+                 <li class="media"><a href="#"> Unirse a una Clase </a></li>
+                 <li class="media"><a href="#"> Crear Clase </a></li>
+
+
+                  </ul>
+
+               </li>
+               <li><a href="#">Usuario
+
+                <ul>
+                  
+                  <li class="media"><a href="Login.html"> Iniciar Sesiòn </a></li>
+                  <li class="media"><a href="#"> Registrarse </a></li>
+
+                </ul>
+
+                </a></li>
+               <li><a href="contacto.html"> Contacto </a></li>
+
+<li>
+    
+       <input type="clase" name="clase" id="input-search" placeholder="Buscar aquí...">
+               
+     <div class="content-search">
+        <div class="content-table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><a href="index.html">Inicio</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="informacion.html">Información</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="#">Consultas</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="#">Clases</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="#">Yahaoo!</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="#">CSS</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+   
+ </li>
+                </ul>
+            </nav>
+            </div>
+    </div>
+
+</header>
+
+
+	<section id="boletin">
+    
+    <div class="contenedor">
+      
+    </div>
+    
+    </section>
+
+      <hr>
+            
+        <div class="seleccion">
+            
+            <botton><a href="#"><img src="img/login2.png"></a></botton>
+            <botton><a href="#"><img src="img/newusauri.png"></a></botton>
+            
+        </div>
+            
+      <div class="texto" align="left"><font color="#999999"><font size="6"><b>Registro Profesores</b></font></font>
+    </label>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Nombre (s)</font></b></font></label>
+        </p>
+        <p>
+          <input type="text" name="Nombre (s)" id="Nombre" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Apellidos</font></font></b></font></label>
+        </p>
+        <p>
+          <input type="text" name="Nombre (s)" id="Nombre" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><font size="4.5"><b>E-mail</font></b></font></font></label>
+        </p>
+        <p>
+          <input type="Email" name="Nombre (s)" id="Nombre" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Materia a impartir</font></font></b></font></label>
+        </p>
+        <p>
+          <input type="text" name="Nombre (s)" id="Nombre" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Usuario</font></b></font></label>
+        </p>
+        <p>
+          <input type="text" name="Nombre (s)" id="Nombre" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Contraseña</font></b></font></label>
+        </p>
+        
+        <p>
+          <input type="password" name="Nombre (s)" id="Nombre" />
+        </p>
+        
+        <p>
+        <a href="#"><input type="submit" name="boton" id="boton" value= "Registrarse"/></a>
+      </p>
+        </div>
+        
+        </br>
+        
+          <div class="texto2" align="left"><font color="#999999"><font size="6"><b>Registro Alumnos</b></font></font>
+    </label>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Nombre (s)</font></b></font></label>
+        </p>
+        <p>
+          <input type="text" name="Nombre (s)" id="texto01" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Apellidos</font></font></b></font></label>
+        </p>
+        <p>
+          <input type="text" name="Nombre (s)" id="texto01" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><font size="4.5"><b>E-mail</font></b></font></font></label>
+        </p>
+        <p>
+          <input type="Email" name="Nombre (s)" id="texto01" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">No.Control</font></font></b></font></label>
+        </p>
+        <p>
+          <input type="Number" name="Nombre (s)" id="texto01" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Usuario</font></b></font></label>
+        </p>
+        <p>
+          <input type="text" name="Nombre (s)" id="texto01" />
+        </p>
+        
+        <p>
+          <label for="Nombre (s)"><font color="#999999"><b><font size="4">Contraseña</font></b></font></label>
+        </p>
+        
+        <p>
+          <input type="password" name="Nombre (s)" id="texto01" />
+        </p>
+        
+        <p>
+        <a href="#"><input type="submit" name="boton" id="boton" value= "Registrarse"/></a>
+      </p>
+        </div>
+        
+        
+           <script src="js/search.js"></script>
+        
+        
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+
+al {
+	list-style: none;
+	padding-left: 40px;
+	animation: cambiar 8s infinite;
+}
+
+al, p {
+	margin: 0;
+}
+
+@keyframes cambiar {
+	0%{margin-top: 0;}
+	5%{margin-top: 0;}
+
+	10%{margin-top: -40px;}
+	15%{margin-top: -40px;}
+
+	90%{margin-top: -40px;}
+	95%{margin-top: -40px;}
+
+	100%{margin-top: 0px;}
+
+}

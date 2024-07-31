@@ -1,0 +1,179 @@
+body{
+  
+	font: 15px 'open olans';
+	padding: 0;
+	margin: 0;
+  
+}
+
+.contenedor{
+
+	width: 95%;
+	padding:auto;
+	overflow: hidden;
+	margin-left:40px;
+	
+}
+
+.contenedor img{
+  
+  float:left;
+  padding:0 10px 0 20px ;
+  
+}
+
+header {
+	background: #24282b;
+	color:#0C6;
+	padding-top: 30px;
+	min-height:10px;
+	border-bottom: 4px solid #0C6;
+}
+
+header a {
+  
+    font-family:Arial, Helvetica, sans-serif;
+		color:#0C6;
+		text-decoration: none;
+		text-transform:uppercase;
+		font-size: 16px;
+}
+
+header nav ul li ul{
+
+display: none;
+position: absolute;
+float: right;
+
+}
+
+
+header nav ul li:hover > ul {
+
+display: block;
+
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 30px 0 5px;
+}
+
+header #marca{
+	float:inherit;
+	margin-left:80px;
+}
+
+header #marca h1{
+	float:left	;
+	margin-top:0;
+}
+
+header nav{
+	float:right;
+	margin-top: 10px;
+	margin-right:50px;
+}
+
+header .resaltado, header .actual a{
+	color:#0FF;
+	font-weight: bold;
+}
+
+header.resaltado,  header .media a{
+
+	color: cyan;
+
+}
+
+header a:hover{
+	color:#F90;
+	font-weight: bold;
+}
+
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+header input {
+  
+  display:inline-block;
+  padding:6px;
+  width:128px;
+  font-weight:300;
+  border:1px solid rgba(24,16,16,.7);
+  color:rgb(24,16,16);
+  font-size:16px;
+  text-align:center;
+  text-decoration:none;
+  border-radius:20px;
+  margin-top:-10px;
+	height:25px;
+    padding-left:20px;
+	padding-right:40px;
+
+}
+
+.content-search{
+  
+  font-family:arial;
+    width: 90%;
+    height: 2vh;
+    position: center;
+    top: 60px;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+
+.content-table{
+ 
+    float:right;
+    width: 90%;
+    max-height: 200px;
+    background: rgba(0,0,0,0.3);
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.content-table table{
+    width: 100%;
+     
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
+
+
+footer{
+
+	font-size:20px;
+	padding: 10px;
+	margin-top:20px;
+	color:#000;
+	background-color:#fff;
+	text-align: center;
+}
+
+footer p{
+  
+  display:inline-block;
+  padding:9px;
+  width:138px;
+  font-weight:400;
+  border:1px solid rgba(24,16,16,.7);
+  font-size:18px;
+  text-align:center;
+  text-decoration:none;
+  border-radius:20px;
+  margin-top:-5px;
+	height:35px;
+  padding-left:30px;
+	padding-right:30px;
+  background-color:#0CC6;
+  
+}
